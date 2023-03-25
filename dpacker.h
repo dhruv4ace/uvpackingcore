@@ -98,6 +98,16 @@ namespace dpacker {
         float epsilon = 1.192092896e-07F;
     };
 
+    struct AddMeshError
+    {
+        enum Enum 
+        {
+            Success,
+            Error,
+            IndexOutOfRange,
+            InvalidIndexCount,
+        }
+    };
     
     
 }
